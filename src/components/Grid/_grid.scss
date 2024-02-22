@@ -1,7 +1,6 @@
 @use "../../styles/util/" as u;
 
 .grid {
-  border: solid red;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
