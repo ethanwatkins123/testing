@@ -1,0 +1,12 @@
+@use "../../styles/util/" as u;
+
+.home {
+  h1,
+  h2 {
+    margin-block-end: u.rem(16);
+  }
+
+  p {
+    margin-block-end: u.rem(16);
+  }
+}

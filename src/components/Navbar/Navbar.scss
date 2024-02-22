@@ -1,0 +1,16 @@
+@use "../../styles/util/" as u;
+
+.navbar {
+  padding: u.rem(16);
+  margin-block-end: u.rem(16);
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: u.rem(16);
+
+    a {
+      color: var(--text-color);
+    }
+  }
+}
