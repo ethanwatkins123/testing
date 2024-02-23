@@ -1,15 +1,13 @@
+import { useTranslation } from "react-i18next";
 import "./about.scss";
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h2>About</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium ad
-        explicabo repellat repellendus inventore, ratione, commodi, eum
-        molestiae aut dignissimos mollitia optio quis deleniti blanditiis natus
-        odio quibusdam delectus nesciunt!
-      </p>
+      <h2>{t("aboutUs")}</h2>
+      <p>{t("aboutUsBody")}</p>
     </div>
   );
 }

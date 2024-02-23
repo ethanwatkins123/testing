@@ -1,15 +1,14 @@
+import { useTranslation } from "react-i18next";
+
 import "./contact.scss";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h2>Contact</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
-        libero minus animi quasi quo voluptate placeat! Minima aut perspiciatis
-        voluptates officiis ullam, porro facere tempora neque, eum cupiditate
-        deleniti?
-      </p>
+      <h2>{t("contact")}</h2>
+      <p>{t("contactBody")}</p>
     </div>
   );
 }
